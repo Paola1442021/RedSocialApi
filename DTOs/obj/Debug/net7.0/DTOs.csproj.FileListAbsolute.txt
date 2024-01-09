@@ -1,0 +1,12 @@
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\DTOs.AssemblyInfo.cs
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\bin\Debug\net7.0\DTOs.deps.json
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\bin\Debug\net7.0\DTOs.dll
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\bin\Debug\net7.0\DTOs.pdb
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\DTOs.dll
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\refint\DTOs.dll
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\DTOs.pdb
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\ref\DTOs.dll
+C:\Users\Paola\Downloads\obligatorioApiJWT\DTOs\obj\Debug\net7.0\DTOs.csproj.AssemblyReference.cache

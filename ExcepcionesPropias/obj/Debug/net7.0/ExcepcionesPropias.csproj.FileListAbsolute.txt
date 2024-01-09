@@ -1,0 +1,11 @@
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\bin\Debug\net7.0\ExcepcionesPropias.deps.json
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\bin\Debug\net7.0\ExcepcionesPropias.dll
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\bin\Debug\net7.0\ExcepcionesPropias.pdb
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\ExcepcionesPropias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\ExcepcionesPropias.AssemblyInfoInputs.cache
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\ExcepcionesPropias.AssemblyInfo.cs
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\ExcepcionesPropias.csproj.CoreCompileInputs.cache
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\ExcepcionesPropias.dll
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\refint\ExcepcionesPropias.dll
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\ExcepcionesPropias.pdb
+C:\Users\Paola\Downloads\obligatorioApiJWT\ExcepcionesPropias\obj\Debug\net7.0\ref\ExcepcionesPropias.dll

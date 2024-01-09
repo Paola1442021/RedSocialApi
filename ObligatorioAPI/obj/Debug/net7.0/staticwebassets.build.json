@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "KiQe1bqLUfDFmMwTjzs5+8juPtfiNrLBBPk8ilLdA7s=",
+  "Source": "ObligatorioAPI",
+  "BasePath": "_content/ObligatorioAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ObligatorioAPI\\wwwroot",
+      "Source": "ObligatorioAPI",
+      "ContentRoot": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\ObligatorioAPI\\wwwroot\\",
+      "BasePath": "_content/ObligatorioAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

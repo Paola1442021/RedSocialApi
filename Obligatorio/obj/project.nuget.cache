@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dZUOFQyzTfFnxvtjy3GC1HF6Nx59xOMp7pkrliHopBC7wahGS8XWz03VvAwZFnpmdTv+Xdtc6zPNIOjs0vlNJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\Obligatorio\\LogicaDeNegocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Paola\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

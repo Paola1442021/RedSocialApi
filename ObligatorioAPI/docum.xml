@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ObligatorioAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ObligatorioAPI.Controllers.GrupoController.BuscarGrupos(System.Int32)">
+            <summary>
+            Se busca los grupos por id
+            </summary>
+            <param name="id">El id del grupos</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.MeGustaController.AltaMeGusta(DTOs.DTOMeGusta)">
+            <summary>
+            Esto es para dar de alta un MeGusta
+            </summary>
+            <param name="mg">El objeto que queremos crear </param>
+            <returns>201 Objeto creado, 400 BadRequest o 500</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.MensajeController.BorrarMensajeDeUsuario(System.Int32,System.Int32)">
+            <summary>
+            Borra un mensaje existente.
+            </summary>
+            <param name="idUser">El ID del usuario que desea eliminar mensajes.</param>
+            <param name="idMensaje">El ID del mensaje que se desea eliminar.</param>
+            <returns>
+            204: Operación exitosa. No hay contenido que devolver.
+            400: El ID no es válido o no se proporcionó.
+            404: No se encontró el ecosistema con el ID especificado.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.MensajeController.Alta(DTOs.DTOMensaje)">
+            <summary>
+            Esto es para dar de alta un mensaje
+            </summary>
+            <param name="msg">El objeto que queremos crear </param>
+            <returns>201 Objeto creado, 400 BadRequest o 500</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.MensajeController.EncontrarCharla(System.Int32,System.Int32)">
+            <summary>
+            Se busca los chats por id
+            </summary>
+            <param name="id">El id del user1</param>
+            <param name="id2">El id del user2</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.NotificacionController.MarcarLeidoNotificacion(System.Int32,System.Int32)">
+            <summary>
+            Marcar leido la notificacion.
+            </summary>
+            <param name="idUsu">El ID del user al que queremos marcar leida la notificacion.</param>
+            <param name="idNotificacion">La notificacion que queremos marcar como leido.</param>
+            <returns>
+            200: Operación exitosa.
+            400: No se envió información para asignar al user o parámetros incorrectos.
+            404: No se encontró el user.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.PublicacionController.BorrarPublicacionDeUsuario(System.Int32,System.Int32)">
+            <summary>
+            Borra una publicacion existente.
+            </summary>
+            <param name="idUser">El ID del usuario que desea eliminar publicaciones.</param>
+            <param name="idPubli">El ID de la publicacion que se desea eliminar.</param>
+            <returns>
+            204: Operación exitosa. No hay contenido que devolver.
+            400: El ID no es válido o no se proporcionó.
+            404: No se encontró el ecosistema con el ID especificado.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.PublicacionController.BuscarPublicaciones(System.Int32)">
+            <summary>
+            Se busca las publicaciones por id de usuario
+            </summary>
+            <param name="id">El id del user</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.PublicacionController.AltaPublicacion(DTOs.DTOPublicacion)">
+            <summary>
+            Esto es para dar de alta una publicacion
+            </summary>
+            <param name="publi">El objeto que queremos crear </param>
+            <returns>201 Objeto creado, 400 BadRequest o 500</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.AltaUsuario(DTOs.DTOUsuario)">
+            <summary>
+            Esto es para dar de alta un Usuario
+            </summary>
+            <param name="usuarioConFoto">El objeto que queremos crear </param>
+            <returns>201 Objeto creado, 400 BadRequest o 500</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.Login(System.String,System.String)">
+            <summary>
+            Realiza el inicio de sesión para un usuario.
+            </summary>
+            <param name="username">El nombre de usuario para el inicio de sesión.</param>
+            <param name="contrasenia">La contraseña para el inicio de sesión.</param>
+            <returns>
+            200 OK si el inicio de sesión es exitoso,
+            400 BadRequest si la solicitud es incorrecta,
+            401 Unauthorized si el usuario o la contraseña son inválidos,
+            500 InternalServerError si ocurre un error inesperado.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.RemoveUser(System.Int32)">
+            <summary>
+            Borra un usuario existente.
+            </summary>
+            <param name="id">El ID del usuario que se desea eliminar.</param>
+            <returns>
+            204: Operación exitosa. No hay contenido que devolver.
+            400: El ID no es válido o no se proporcionó.
+            404: No se encontró el usuario con el ID especificado.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.CambiarContrasenia(System.Int32,System.String)">
+            <summary>
+            Cambiar contraenia.
+            </summary>
+            <param name="idusu">El ID del user al que queremos cambiar la contrasenia.</param>
+            <param name="contrasenia">La contrasenia que queremos asignar al user.</param>
+            <returns>
+            200: Operación exitosa.
+            400: No se envió información para asignar al user o parámetros incorrectos.
+            404: No se encontró el user.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.CambiarNombreDeUsuario(System.Int32,System.String)">
+            <summary>
+            Cambiar contraenia.
+            </summary>
+            <param name="idusu">El ID del user al que queremos cambiar el nombre de usuario.</param>
+            <param name="nombreUsu">El username que queremos asignar al user.</param>
+            <returns>
+            200: Operación exitosa.
+            400: No se envió información para asignar al user o parámetros incorrectos.
+            404: No se encontró el user.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.ObtenerSeguidosDeSeguidos(System.Int32)">
+            <summary>
+            Se busca los seguidos de seguidos por id
+            </summary>
+            <param name="id">El id del user al que queremos buscarle los seguidos de los seguidos</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.UserID(System.Int32)">
+            <summary>
+            Se busca el usuario por id
+            </summary>
+            <param name="id">El id del user que queremos buscar</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.BuscarPorNombre(System.String)">
+            <summary>
+            Se busca el user por nombre
+            </summary>
+            <param name="nombre">El nombre del user que queremos buscar</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.AsignarSeguidor(System.Int32,System.Int32)">
+            <summary>
+            sigo a un usuario.
+            </summary>
+            <param name="idSeguidor">El ID del usuario que quiere seguir</param>
+            <param name="idSeguido">El ID del usuario que quiero seguir.</param>
+            <returns>
+            200: Operación exitosa.
+            400: No se envió información para asignar al usuario.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.AsignarFotoDePerfil(System.Int32,System.String)">
+            <summary>
+            Asignar foto de perfil a un usuario.
+            </summary>
+            <param name="idusu">El ID del user al que queremos actualizar la foto.</param>
+            <param name="stringFoto">Nombre de archivo que le vamos a poner.</param>
+            <returns>
+            200: Operación exitosa.
+            400: No se envió información para asignar al user o parámetros incorrectos.
+            404: No se encontró el user.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.BorrarSeguido(System.Int32,System.Int32)">
+            <summary>
+            Borra un seguidor existente.
+            </summary>
+            <param name="idUserSeguidor">El ID del usuario que desea eliminar seguido.</param>
+            <param name="idUserSeguido">El ID del usuario que voy a dejar de seguir.</param>
+            <returns>
+            204: Operación exitosa. No hay contenido que devolver.
+            400: El ID no es válido o no se proporcionó.
+            404: No se encontró el ecosistema con el ID especificado.
+            500: Error interno del servidor.
+            </returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.ObtenerNotificaciones(System.Int32)">
+            <summary>
+            Se busca las notificaciones del usuario
+            </summary>
+            <param name="id">El id del user</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.ObtenerSeguidoresDeUsuario(System.Int32)">
+            <summary>
+            Se busca los seguidores del usuario
+            </summary>
+            <param name="id">El id del user</param>
+            <returns>user o nulo</returns>
+        </member>
+        <member name="M:ObligatorioAPI.Controllers.UsuarioController.ObtenerSeguidosDeUsuario(System.Int32)">
+            <summary>
+            Se busca los seguidos del usuario
+            </summary>
+            <param name="id">El id del user</param>
+            <returns>user o nulo</returns>
+        </member>
+    </members>
+</doc>

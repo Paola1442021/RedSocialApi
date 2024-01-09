@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\Obligatorio\\LogicaDeNegocio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\ExcepcionesPropias\\ExcepcionesPropias.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\ExcepcionesPropias\\ExcepcionesPropias.csproj",
+        "projectName": "ExcepcionesPropias",
+        "projectPath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\ExcepcionesPropias\\ExcepcionesPropias.csproj",
+        "packagesPath": "C:\\Users\\Paola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\ExcepcionesPropias\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\Obligatorio\\LogicaDeNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\Obligatorio\\LogicaDeNegocio.csproj",
+        "projectName": "LogicaDeNegocio",
+        "projectPath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\Obligatorio\\LogicaDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\Paola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\Obligatorio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\ExcepcionesPropias\\ExcepcionesPropias.csproj": {
+                "projectPath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\ExcepcionesPropias\\ExcepcionesPropias.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

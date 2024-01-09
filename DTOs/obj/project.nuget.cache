@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6+vpp8vdvV7bXu4Bq5rg+BE5vn2y09MS/Z3oO9va6UAHyhXIbKDhQLVRI8zdvGLrMbyfu1bV6tdQHekZdSMbOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\DTOs\\DTOs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Paola\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Paola\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Paola\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

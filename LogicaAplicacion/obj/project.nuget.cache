@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ioJ+gMLqyysZAdrsua5jQctgBadq6VXyJ85Tvw+ph7+pzr20vf9bKYacddZM5yiG4PuEzSP3dd6wbZJIxSpiXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Paola\\Downloads\\obligatorioApiJWT\\LogicaAplicacion\\LogicaAplicacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Paola\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Paola\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
+    "C:\\Users\\Paola\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Paola\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
